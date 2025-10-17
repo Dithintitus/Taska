@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(135deg, #ff9966, #ff5e62);
+  background: linear-gradient(135deg, #EFF1C5, #035E7B);
   font-family: 'Poppins', sans-serif;
   display: flex;
   justify-content: center;
@@ -25,7 +25,7 @@ h1 {
 
 button {
   background-color: white;
-  color: #ff5e62;
+  color: #002E2C;
   border: none;
   padding: 10px 20px;
   border-radius: 8px;
@@ -35,7 +35,7 @@ button {
 }
 
 button:hover {
-  background-color: #ff5e62;
+  background-color: #035E7B;
   color: white;
 }
 
