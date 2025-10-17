@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  font-family: "Poppins", sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.quote-box {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  min-height: 100px;
+}
+
+button {
+  background: white;
+  color: #0072ff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #0072ff;
+  color: white;
+}
