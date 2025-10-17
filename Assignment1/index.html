@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UPI Payment Flow</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>☕ Buy Me a Coffee</h1>
+    <p>Amount: <strong>₹1</strong></p>
+
+    <button id="payBtn">Pay via UPI</button>
+
+    <div class="confirmation">
+      <h3>Payment Confirmation</h3>
+      <input type="text" id="txnId" placeholder="Enter UPI Transaction ID" />
+      <button id="confirmBtn">Confirm Payment</button>
+      <p id="status"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
